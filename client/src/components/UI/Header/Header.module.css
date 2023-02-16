@@ -1,0 +1,45 @@
+.header {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    height: 70px;
+    padding: 0 100px;
+    z-index: 99;
+    background: #2a2a2a;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: InterSemiBold, serif;
+    font-size: 16px;
+    color: #eeeeee;
+}
+
+.header__controllers {
+    display: flex;
+    align-items: center;
+}
+
+.header__signed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-family: InterLight, serif;
+    font-size: 12px;
+    color: rgba(238, 238, 238, 0.48);
+}
+
+.header__username {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    font-family: InterRegular, serif;
+    font-size: 12px;
+    color: #eeeeee;
+}

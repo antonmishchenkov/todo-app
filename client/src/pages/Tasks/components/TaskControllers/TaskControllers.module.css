@@ -1,0 +1,21 @@
+.controllers {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    min-width: 550px;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.controllers__sorting {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.controllers__label {
+    font-family: InterLight, serif;
+    font-size: 12px;
+    color: rgba(238, 238, 238, 0.5);
+    margin-right: 5px;
+}

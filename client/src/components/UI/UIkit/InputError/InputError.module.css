@@ -1,0 +1,18 @@
+.error {
+    color: #be2e2e;
+    font-family: InterRegular;
+    font-size: 12px;
+    display: block;
+    animation: animation 0.7s forwards;
+}
+
+@keyframes animation {
+    0%{
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(10%);
+    }
+}

@@ -1,0 +1,32 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 30px;
+    font-family: "InterSemiBold", serif;
+    font-size: 12px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .1s linear;
+    overflow: hidden;
+}
+
+.button:disabled{
+    opacity: .6;
+}
+
+.button_type_default {
+    background-color: #393939;
+    color: #eee;
+}
+.button_type_default:hover {
+    background-color: #3f3f3f;
+}
+
+.button__icon {
+    height: 1em;
+    margin-right: 3px;
+}
